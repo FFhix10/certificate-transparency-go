@@ -4,10 +4,10 @@ go 1.16
 
 require (
 	github.com/fullstorydev/grpcurl v1.8.2
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/glog v1.0.0
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.5.9
 	github.com/google/trillian v1.3.14-0.20210713114448-df474653733c
 	github.com/juju/ratelimit v1.0.1
 	github.com/kylelemons/godebug v1.1.0
@@ -19,8 +19,8 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.0
 	go.etcd.io/etcd/etcdctl/v3 v3.5.0
 	go.etcd.io/etcd/v3 v3.5.0
-	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
-	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
-	google.golang.org/grpc v1.39.0
-	google.golang.org/protobuf v1.27.1
+	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
+	golang.org/x/net v0.5.0
+	google.golang.org/grpc v1.53.0
+	google.golang.org/protobuf v1.28.1
 )
